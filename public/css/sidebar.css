@@ -18,19 +18,19 @@ html{
 body{
   min-height: 100vh;
   min-height: 100dvh;
-  background-color: var(--base-clr);
+  background-color: var(--base-clr) !important;
   color: var(--text-clr);
   display: grid;
   grid-template-columns: auto 1fr;
 }
 #sidebar{
+  position: fixed;
   box-sizing: border-box;
   height: 100vh;
   width: 250px;
   padding: 5px 1em;
   background-color: var(--base-clr);
   border-right: 1px solid var(--line-clr);
-
   position: sticky;
   top: 0;
   align-self: start;
@@ -44,6 +44,7 @@ body{
 }
 #sidebar ul{
   list-style: none;
+  padding-left: 0;
 }
 #sidebar > ul > li:first-child{
   display: flex;
@@ -133,7 +134,7 @@ main p{
   margin-top: 5px;
   margin-bottom: 15px;
 }
-.container{
+.container-sidebar{
   border: 1px solid var(--line-clr);
   border-radius: 1em;
   margin-bottom: 20px;
@@ -149,7 +150,7 @@ main p{
   main{
     padding: 2em 1em 60px 1em;
   }
-  .container{
+  .container-sidebar{
     border: none;
     padding: 0;
   }

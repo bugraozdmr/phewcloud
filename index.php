@@ -13,8 +13,9 @@ include $_SERVER['DOCUMENT_ROOT']."/phewcloud/components/main/header.php";
   <?php include $_SERVER['DOCUMENT_ROOT']."/phewcloud/components/main/sidebar.php"; ?>
   <main>
     <!-- application comes here -->
-    
+    <?php include $_SERVER['DOCUMENT_ROOT']."/phewcloud/components/main/file_explorer.php"; ?>
   </main>
+
   <?php include $_SERVER['DOCUMENT_ROOT']."/phewcloud/components/main/additional/scripts.php"; ?>
 </body>
 </html>
