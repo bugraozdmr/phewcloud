@@ -1,0 +1,2 @@
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="<?php echo $default_path ?>/plugins/file-uploader/fancy-file-uploader/fancy_fileupload.css" type="text/css" media="all" />
